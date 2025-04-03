@@ -23,6 +23,7 @@ export function TaskSidebar({ stats }: TaskSidebarProps) {
   const navItems = [
     { href: "/", label: "Dashboard", icon: Home },
     { href: "/profile", label: "Profile", icon: User },
+    { href: "/dental", label: "Dental", icon: User },
   ];
 
   return (
